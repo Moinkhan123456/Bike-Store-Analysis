@@ -57,6 +57,6 @@ Dashboard Interaction <a href="https://github.com/Moinkhan123456/Bike-Store-Anal
 <br>
 Dashboard Interaction <a href="https://github.com/Moinkhan123456/Bike-Store-Analysis/blob/main/Screenshot%20(10).png">View Dashboard</a>
 <br>
-Dashboard Interaction <a href="https://github.com/Moinkhan123456/Bike-Store-Analysis/blob/main/Screenshot%20(11).png">View Dashboard of Sales Bike Store</a>
+Dashboard Interaction <a href="https://github.com/Moinkhan123456/Bike-Store-Analysis/blob/main/Screenshot%20(11).png">View Dashboard</a>
 <br>
 Analysis and create a dashboard report.
