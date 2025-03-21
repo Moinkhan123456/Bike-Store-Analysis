@@ -7,7 +7,7 @@ Datasets Used:
 - **Bike store db**
 - **Tables: Brands, Categories, Customers, Order_Items, Orders, orders_delivered, Products, Staffs, Stocks, Stores**
 
-Data Modeling Process:
+1. **Data Modeling Process:**
 - **Relationships Created:**
    - **One-to-Many relationships**
       - **Customers ➔ Orders**
@@ -18,7 +18,7 @@ Data Modeling Process:
   - **Proper Primary Key-Foreign Key mappings done.**
 - **Star Schema approach followed: Fact table (Order_Items) in the center linked to dimension tables (Products, Customers, Stores, etc.).**
 
-Data Cleaning & Data Processing
+2. **Data Cleaning & Data Processing**
   - **Steps Taken:**
       - **Removed unwanted columns and null values from datasets.**
       - **Standardized naming conventions and ensured consistency.**
@@ -26,7 +26,7 @@ Data Cleaning & Data Processing
       - **Removed duplicate entries, handled blank fields using Power Query Editor.**
       - **Converted data types (like dates, currency, etc.) to appropriate formats.**
 
-3. DAX Functions & Calculated Columns
+3. **DAX Functions & Calculated Columns**
 DAX Calculations Performed:
 - **New Measures:**
    - **Total Revenue = SUM(Order_Items[Revenue])**
@@ -37,7 +37,7 @@ DAX Calculations Performed:
         - **Revenue_Per_Product = RELATED(Products[Product_Price]) * Order_Items[Quantity]** 
    - **Goal/KPI indicator using DAX for Year-over-Year comparisons (e.g., Goal: +3010% in screenshot).**
 
-4. End-to-End Process Workflow
+4. **End-to-End Process Workflow**
 - **1.Data Import:**
      - **Connected to the Bike Store database using Power BI's SQL Server connector.**
 - **2.Data Cleaning:**
