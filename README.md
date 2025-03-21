@@ -10,11 +10,11 @@ Datasets Used:
 Data Modeling Process:
 - **Relationships Created:**
    - **One-to-Many relationships**
-      - **Customers ➔ Orders
-      - **Orders ➔ Order_Items
-      - **Products ➔ Order_Items
-      - **Brands, Categories ➔ Products
-      - **Stores ➔ Staffs, Orders
+      - **Customers ➔ Orders**
+      - **Orders ➔ Order_Items**
+      - **Products ➔ Order_Items**
+      - **Brands, Categories ➔ Products**
+      - **Stores ➔ Staffs, Orders**
   - **Proper Primary Key-Foreign Key mappings done.**
 - **Star Schema approach followed: Fact table (Order_Items) in the center linked to dimension tables (Products, Customers, Stores, etc.).**
 
